@@ -1,0 +1,25 @@
+1: Primeiro contato com o desafio;
+- Quando vi e li a proposta, comentei com um amigo sobre, e nós dois de maneira breve sabíamos que deveria ser feito usando uma matriz.
+- Não estava com meu computador, então passei para o papel algumas ideias que tive, e implementei a lógica de criar uma matriz NxN preenchendo-a passo a passo:
+Passos: 
+  1 - Preencher toda a matriz;
+  2 - Preencher somente as bordas;  
+  3 - Preencher as diagonais;
+  4 - Preencher o triângulo de cima.
+
+2: Implementando a lógica do desafio principal:
+- Quando comecei a implementar, estavam dando alguns erros com o tipo Array, então preferi fazer novamente passo a passo.
+Passos:
+  1 - Implementei a lógica usando string;
+  2 - Busquei e corrigi o erro de não funcionar com Array, corrigi e implementei usando Array;
+
+3: Lógica do desafio extra:
+- A primeira ação que fiz foi implementar a parte debaixo do triângulo, e consegui com êxito e de maneira reversa (implementando debaixo para cima).
+- A seguir quis juntar as duas funções que tinha criado: a que mostrava o triângulo superior e a que mostrava o triângulo inferior.
+- Logo após, implementei uma função que quando uma linha estivesse toda preenchida na parte inferior, a primeira linha do triângulo superior estivesse em branco.
+E quando a segunda linha da parte inferior estivesse preenchida, a segunda linha da superior estivesse em branco, etc.
+- Por fim, usei setInterval para mostrar "lentamente" esse processo da ampulheta.
+
+O tempo total que levei foram cerca de 6 horas.
+
+OBS: Usei o Live Server, extensão do VSCode, para rodar o programa.
